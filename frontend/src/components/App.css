@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+html{
+  background-image: url("background.jpg");
+    /* Full height */
+height: 100%;
+background-repeat: repeat-y;
+
+/* Center and scale the image nicely */
+background-position: center;
+background-size: cover;
+}
+
+ .column {
+  width: 30%;
+ 
+  margin-top: 100px;
+  margin-left: 20px;
+}
+.column h3{
+  margin-left: 130px;
+  margin-top: 10px;
+  color: #f1f1f1;
+}
+
+.droppable-col {
+  width: 100%;
+  background-color: gray;
+  padding: 10px 10px 0 10px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+}
+
+.item {
+  margin-bottom: 10px;
+  background-color: gray;
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.item.dragging {
+  background-color: coral;
+}
+
+.columns{
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  justify-content: space-around;
+}
+.formular{
+ 
+}
+.formular{
+  position: relative;
+  margin-top: 40px;
+  margin-left: 35%;
+  margin-bottom: 0px;
+}
+.formular input{
+  margin-left: 50px;
+  margin-right: 5px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.formular button
+{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 40px;
+  text-align: center;
+}
+.btn:hover {
+  background-color: black;
+  color: white;
+}

@@ -1,0 +1,54 @@
+.Posts {
+    display: flex;
+    flex-wrap: wrap;
+}
+body {
+    font-family: Arial;
+    margin: 0;
+  }
+.Title {
+    padding: 30px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+  }
+
+.AddProject{
+    margin-top: 50px;
+    margin-left: 25%;
+    margin-bottom: 50px;
+}
+.AddProject input{
+    margin-left: auto;
+    margin-right: 20;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+ .btn
+{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 80px;
+    text-align: center;
+}
+.btn:hover {
+    background-color: black;
+    color: white;
+}
